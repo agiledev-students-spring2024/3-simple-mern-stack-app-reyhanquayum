@@ -14,7 +14,7 @@ To complete this exercise:
 1. add a new page to the app called "About Us", where you have written a few paragraphs about yourself and included a photo of yourself. The page content, including all text and the URL to the image must be retrieved as `JSON` data from a new route you create on the back-end.
 
 ## How to launch the app
-
+v
 ### Get the code
 
 1. Fork this repository (accepting this as a GitHub Classroom assignment does this for you)

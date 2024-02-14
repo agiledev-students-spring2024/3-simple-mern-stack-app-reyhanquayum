@@ -1,0 +1,18 @@
+.about-name {
+    font-family: var(--chakra-fonts-heading); /* Define or replace with actual font-family */
+    font-weight: var(--chakra-fontWeights-bold); /* Define or replace with actual font-weight */
+    font-size: var(--chakra-fontSizes-display); /* Define or replace with actual font-size */
+    line-height: 95%;
+    color: transparent;
+    background-image: linear-gradient(to left, #638bed, #37d393);
+    -webkit-background-clip: text;
+    background-clip: text;
+    position: relative;
+    z-index: 1;
+}
+.about-image{
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+}
