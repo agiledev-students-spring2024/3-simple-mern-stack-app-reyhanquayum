@@ -10,9 +10,33 @@
     position: relative;
     z-index: 1;
 }
-.about-image{
-    border-radius: 50%; 
-    width: 150px; 
-    height: 150px; 
-    object-fit: cover;
+
+.About {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px;
+  color: #ffffff; /* Light text color for contrast */
+  background: linear-gradient(135deg, #000000, #484848);
 }
+
+.about-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  float: left; /* or right */
+  margin-right: 20px; /* Adjust spacing around the image */
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 1em;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 20px 0;
+  padding-left: 20px;
+  border-left: 3px solid #ccc;
+}
+
